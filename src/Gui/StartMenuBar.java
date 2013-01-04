@@ -44,7 +44,7 @@ public class StartMenuBar extends MenuBar{
 		impressum.addActionListener(new ActionListener(){
 			
 			public void actionPerformed(ActionEvent e) {
-								
+				Impressum impressum = new Impressum();								
 			}
 			
 		});
